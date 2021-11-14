@@ -1,6 +1,4 @@
 import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
 
 public class StudentGrades {
 
@@ -12,11 +10,10 @@ public class StudentGrades {
         this.grades = grades;
     }
     StudentGrades(String name, int numberOfGrades){
-        Random rand = new Random();
         this.studentName = name;
         double[] grades = new double[numberOfGrades];
         for (int i = 0; i < numberOfGrades; i++) {
-            grades[i] = rand.nextInt(4,10)/2;
+            grades[i] = (double)(((int)(Math.random()*7))+4)/2;
         }
         this.grades = grades;
     }

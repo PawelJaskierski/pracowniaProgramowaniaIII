@@ -26,12 +26,14 @@ public class Main {
             dg1[i].displayStatus();
         }
         InternetDevice.displayConnections();*/
-        /*double[] n1 ={3.5, 4.5, 4.0, 2.0, 5.0, 3.5, 3.5};
+        double[] n1 ={3.5, 4.5, 4.0, 2.0, 5.0, 3.5, 3.5};
         double[] n2 ={2.0, 3.0, 2.0, 4.5, 4.5};
         StudentGrades s1 = new StudentGrades("Amanda", n1);
         StudentGrades s2  = new StudentGrades("James", n2);
         s1.Display();
-        s2.Display();*/
+        s2.Display();
+        StudentGrades s3 = new StudentGrades("Paul",10);
+        s3.Display();
         /*NewClock c1 = new NewClock((byte)12,(byte)47);
         c1.DisplayTime();
         c1.SetClock((byte) 18,(byte) 14);
